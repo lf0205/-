@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/Pond/Pond",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Activity/Activity",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/SongSheet/SongSheet",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/Music/Music",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/Apply/Apply",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/Cover/Cover",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/Musician/Musician",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/swiperpages/swiperpages",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/swiperinfo/swiperinfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/recommends/recommends",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "源音塘",
+		"navigationBarBackgroundColor": "#ff73a1",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#C0C0C0",
+		"selectedColor":"#333333",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"text":"首页"
+			},
+			{
+				"pagePath": "pages/Pond/Pond",
+				"text":"池塘"
+			},
+			{
+				"pagePath": "pages/Activity/Activity",
+				"text":"活动"
+			}
+		]
+	}
+}

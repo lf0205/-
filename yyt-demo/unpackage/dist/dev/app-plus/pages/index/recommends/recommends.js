@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"recommendsHeaderInfo{ padding:50px 0; }\n",],undefined,{path:"./pages/index/recommends/recommends.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/recommends/recommends.wxml') } }));

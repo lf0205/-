@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "song-sheet-demo": "/components/SongSheet/SongSheet",
+    "apply-demo": "/components/Apply/Apply",
+    "music-demo": "/components/Music/Music",
+    "cover-demo": "/components/Cover/Cover",
+    "musician-demo": "/components/Musician/Musician"
+  }
+}

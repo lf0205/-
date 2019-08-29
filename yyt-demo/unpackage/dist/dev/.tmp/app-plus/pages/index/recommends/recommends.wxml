@@ -1,0 +1,1 @@
+<view><view class="recommendsHeader"><view class="recommendsHeaderInfo"><view class="_h2">{{date}}</view><view class="_p">{{recommends.cate_img.title}}</view><view class="_p">{{Tips}}</view></view></view></view>

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Pond/Pond",
+    "pages/Activity/Activity",
+    "components/SongSheet/SongSheet",
+    "components/Music/Music",
+    "components/Apply/Apply",
+    "components/Cover/Cover",
+    "components/Musician/Musician",
+    "pages/index/swiperpages/swiperpages",
+    "pages/index/swiperinfo/swiperinfo",
+    "pages/index/recommends/recommends"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "源音塘",
+    "navigationBarBackgroundColor": "#ff73a1",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#333333",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Pond/Pond",
+        "text": "池塘"
+      },
+      {
+        "pagePath": "pages/Activity/Activity",
+        "text": "活动"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "yyt-demo",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}
